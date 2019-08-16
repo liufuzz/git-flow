@@ -40,7 +40,7 @@
 
 **当拿到一个需求应该从 `develop` 开一个分支出来，完成这部分工作, 完成后合并到 `develop` 分支。**
 
-功能分支的名字，采用**feature-***的形式命名。如 ：**feature-demo**
+功能分支的名字，采用 feature-* 的形式命名。如 ：**feature-demo**
 
 ---
 
@@ -50,7 +50,7 @@
 
 **发布正式版本之前（即合并到master分支之前），我们可能需要有一个预发布的版本进行测试**
 
-预发布分支是从`develop`分支上面分出来的，预发布结束以后，必须合并进`develop`和`master`分支。命名采用release-*的形式。如： **release-1.2**
+预发布分支是从`develop`分支上面分出来的，预发布结束以后，必须合并进`develop`和`master`分支。命名采用 release-* 的形式。如： **release-1.2**
 
 ---
 
@@ -60,7 +60,7 @@
 
 **正式发布以后出现bug需要创建一个分支，进行bug修补**
 
-修补bug分支是从`master`分支上面分出来的。修补结束以后，再合并进`master`和`develop`分支。命名采用fixbug-*的形式。如： **fixbug-0.1**
+修补bug分支是从`master`分支上面分出来的。修补结束以后，再合并进`master`和`develop`分支。命名采用 fixbug-* 的形式。如： **fixbug-0.1**
 
 ---
 
